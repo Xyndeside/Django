@@ -1,0 +1,38 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# База данных SQLite
+*.sqlite3
+
+# Логи
+*.log
+
+# Секретные файлы
+.env
+
+# Файлы и каталоги IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Static и media, если они собираются автоматически
+/staticfiles/
+/media/
+
+# Миграции (опционально — если генерируются каждый раз заново)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+# (не добавляем `**/migrations/` полностью, чтобы не терять миграции вручную)
+
+# MacOS и др.
+.DS_Store
+Thumbs.db
